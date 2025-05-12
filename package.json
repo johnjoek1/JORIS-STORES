@@ -1,0 +1,34 @@
+{
+  "name": "joris-stores",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-upload": "^13.0.0",
+    "i18next": "^25.0.2",
+    "i18next-fs-backend": "^2.6.0",
+    "i18next-http-middleware": "^3.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "socket.io": "^4.8.1",
+    "stripe": "^18.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

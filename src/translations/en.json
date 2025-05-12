@@ -1,0 +1,6 @@
+{
+    "product_added": "Product added successfully",
+    "order_created": "Order created successfully",
+    "payment_success": "Payment processed successfully",
+    "delivery_updated": "Delivery status updated"
+  }
